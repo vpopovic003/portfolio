@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -24,6 +28,7 @@ footer {
 nav {
     display: flex;
     justify-content: space-between;
+  
 }
 
 ul {
@@ -113,19 +118,20 @@ p {
 .sub-section {
     display: flex;
     justify-content: space-around;
-    padding: 80px;
+    padding: 80px 0 80px 0;
+    background-color: aliceblue;
 }
 
 .sub-section-alt {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 80px;
+    padding: 40px 0 80px 0;
 }
 
 #software {
-    margin-top: 20px;
-    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 #web {
@@ -154,6 +160,7 @@ p {
 .project-container {
     display: flex;
     justify-content: space-around;
+    margin-top: 40px;
 }
 
  @media only screen and (max-width: 1000px) {
@@ -191,6 +198,13 @@ a {
 
 .hamburger:focus {
     outline: 0;
+}
+
+.socials-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
 }
 
 @media only screen and (max-width: 1000px) {
